@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/gradient_background"
+    tools:context=".MainActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/diceAnim"
+        android:layout_width="match_parent"
+        android:layout_height="472dp"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/dice_roll" />
+
+    <Button
+        android:id="@+id/rollBtn"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="65dp"
+        android:layout_marginRight="65dp"
+        android:background="@drawable/custom_button"
+        android:text="ROLL" />
+
+    <Button
+        android:id="@+id/aboutBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="100dp"
+        android:background="@android:drawable/ic_dialog_info" />
+
+
+</LinearLayout>
